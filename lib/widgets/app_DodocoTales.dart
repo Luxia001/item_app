@@ -1,15 +1,15 @@
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:item_app/widgets/small_text.dart';
+import 'package:item_app/utils/dimension.dart';
+import 'package:item_app/widgets/big_text.dart';
+import 'package:item_app/widgets/icon_and_text_widget.dart';
 
 import '../utils/colors.dart';
-import '../utils/dimension.dart';
-import 'big_text.dart';
-import 'icon_and_text_widget.dart';
 
-class AppColumn extends StatelessWidget {
+class AppDodocoTales extends StatelessWidget {
   final String text;
-  const AppColumn({Key? key, required this.text}) : super(key: key);
+  const AppDodocoTales({Key? key, required this.text}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class AppColumn extends StatelessWidget {
         Row(
           children: [
             Wrap(
-              children: List.generate(1, (index) {return Icon(Icons.star, color: Colors.blueGrey, size: 15,);}),
+              children: List.generate(4, (index) {return Icon(Icons.star, color: Colors.purple, size: 15,);}),
             ),
             //SizedBox(width: 10,),
             //SmallText(text: "4.5"),
@@ -36,8 +36,8 @@ class AppColumn extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             IconAndTextWidget(icon: Icons.circle_sharp,
-              text: "Normal",
-              iconColor: Colors.grey,),
+              text: "Legend",
+              iconColor: Colors.purple,),
             IconAndTextWidget(icon: Icons.search,
               text: "How to get",
               iconColor: AppColors.mainColor,),
