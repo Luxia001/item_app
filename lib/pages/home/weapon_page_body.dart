@@ -420,7 +420,7 @@ class _WeaponPageBodyState extends State<WeaponPageBody> {
                     Container(
                       child:  GestureDetector(
                           onTap: (){
-                            Get.toNamed(RouteHelper.getPopularWeapon());
+                            Get.toNamed(RouteHelper.getwolfsGravestone());
                           }),
                       width :250,
                       height: 250,
@@ -485,6 +485,7 @@ class _WeaponPageBodyState extends State<WeaponPageBody> {
                 ),
               );
             }),
+        /*
         ListView.builder(
             physics: NeverScrollableScrollPhysics(),
             shrinkWrap: true,
@@ -563,6 +564,7 @@ class _WeaponPageBodyState extends State<WeaponPageBody> {
                 ),
               );
             }),
+        */
         ListView.builder(
             physics: NeverScrollableScrollPhysics(),
             shrinkWrap: true,
@@ -576,7 +578,7 @@ class _WeaponPageBodyState extends State<WeaponPageBody> {
                     Container(
                       child:  GestureDetector(
                           onTap: (){
-                            Get.toNamed(RouteHelper.getPopularWeapon());
+                            Get.toNamed(RouteHelper.getvortexVanquisher());
                           }),
                       width :250,
                       height: 250,
@@ -641,6 +643,7 @@ class _WeaponPageBodyState extends State<WeaponPageBody> {
                 ),
               );
             }),
+        /*
         ListView.builder(
             physics: NeverScrollableScrollPhysics(),
             shrinkWrap: true,
@@ -797,6 +800,7 @@ class _WeaponPageBodyState extends State<WeaponPageBody> {
                 ),
               );
             }),
+        */
         ListView.builder(
             physics: NeverScrollableScrollPhysics(),
             shrinkWrap: true,
@@ -810,7 +814,7 @@ class _WeaponPageBodyState extends State<WeaponPageBody> {
                     Container(
                       child:  GestureDetector(
                           onTap: (){
-                            Get.toNamed(RouteHelper.getDodocoTales());
+                            Get.toNamed(RouteHelper.getTheBlackSword());
                           }),
                       width :250,
                       height: 250,
